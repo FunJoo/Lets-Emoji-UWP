@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</Source>
+    <SmallTileSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</SmallTileSource>
+    <MediumTileSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</MediumTileSource>
+    <WideTileSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</WideTileSource>
+    <LargeTileSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</LargeTileSource>
+    <AppIconSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</AppIconSource>
+    <SplashScreenSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\Assets\Fun_Emoji_Logo.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
