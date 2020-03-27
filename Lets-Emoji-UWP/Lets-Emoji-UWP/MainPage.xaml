@@ -31,9 +31,17 @@
                           Margin="160 0 0 0">
 
                 <muxc:MenuBarItem Title="功能">
-                    <MenuFlyoutItem Text="更新搜索词库"
-                                    x:Name="MenuUpdate"
+                    <MenuFlyoutItem Text="刷新Emoji页面"
+                                    x:Name="MenuEmoji"
                                     Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutItem Text="更新搜索词库"
+                                    x:Name="MenuEmojiUpdate"
+                                    Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutSeparator />
+                    <MenuFlyoutItem Text="重置本地词库"
+                                    x:Name="MenuEmojiReset"
+                                    Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutSeparator />
                     <MenuFlyoutItem Text="退出"
                                     x:Name="MenuExit"
                                     Click="MenuFlyoutItem_Click"/>

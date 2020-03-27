@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17134": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -215,6 +233,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -228,6 +268,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -318,9 +367,57 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-arm": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -535,6 +632,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -548,6 +667,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -816,9 +944,42 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-arm-aot": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -1033,6 +1194,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -1046,6 +1229,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -1315,9 +1507,42 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-arm64-aot": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -1532,6 +1757,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -1545,6 +1792,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -1814,9 +2070,42 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-x64": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -2031,6 +2320,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2044,6 +2355,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2312,9 +2632,42 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-x64-aot": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -2529,6 +2882,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2542,6 +2917,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2811,9 +3195,42 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-x86": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -3028,6 +3445,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3041,6 +3480,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3309,9 +3757,42 @@
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     },
     "UAP,Version=v10.0.17134/win10-x86-aot": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Humanizer.Core/2.7.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -3526,6 +4007,28 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
+      "MvvmLight/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/uap10.0/GalaSoft.MvvmLight.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3539,6 +4042,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3808,10 +4320,57 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Win2D.uwp/1.24.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/win10/Win2D.uwp.targets": {}
+        }
       }
     }
   },
   "libraries": {
+    "CommonServiceLocator/2.0.2": {
+      "sha512": "OeAz2cDGiQuaxpJ2pUm1xyZyklT2HgP5LHoumI0o/pcXdTweJMjKHu92JKa33pZRCrRI0DdPcE5MGHk6GCpDMQ==",
+      "type": "package",
+      "path": "commonservicelocator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.2.0.2.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "Humanizer.Core/2.7.9": {
+      "sha512": "CvBPqAgYcvRCDgtHi9pUdPpZqWGyqfJe02qDugMCy4/xia+q0xm/xxqTO55aZkJapdgqrvHb0I5u+sHLzovp+Q==",
+      "type": "package",
+      "path": "humanizer.core/2.7.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.7.9.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
       "sha512": "o+Op8dwxI29v3F2RwgPI5z9r1LAOn8HxAbgmgRi2mppC7KEDgkhv9GvsWM3E7bdYTam0GT7IPM4Nww/wVBiS8A==",
       "type": "package",
@@ -4224,6 +4783,138 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
+    "MvvmLight/5.4.1.1": {
+      "sha512": "fTUDMWT//ChZGd7Q5k0IaJuIXgh+FM43pCStxup7kgh1MQXvC48CjpjWkp5Auru/YXhHOJOMgD1NdtFZgn6K2g==",
+      "type": "package",
+      "path": "mvvmlight/5.4.1.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/ViewModel/MainViewModel.cs.pp",
+        "Content/ViewModel/ViewModelLocator.cs.pp",
+        "mvvmlight.5.4.1.1.nupkg.sha512",
+        "mvvmlight.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "MvvmLightLibs/5.4.1.1": {
+      "sha512": "xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
+      "type": "package",
+      "path": "mvvmlightlibs/5.4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SL5/GalaSoft.MvvmLight.Extras.dll",
+        "lib/SL5/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/SL5/GalaSoft.MvvmLight.Extras.xml",
+        "lib/SL5/GalaSoft.MvvmLight.dll",
+        "lib/SL5/GalaSoft.MvvmLight.pdb",
+        "lib/SL5/GalaSoft.MvvmLight.xml",
+        "lib/SL5/System.Windows.Interactivity.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/monoandroid1/GalaSoft.MvvmLight.XML",
+        "lib/monoandroid1/GalaSoft.MvvmLight.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
+        "lib/net35/GalaSoft.MvvmLight.Extras.dll",
+        "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/net35/GalaSoft.MvvmLight.Extras.xml",
+        "lib/net35/GalaSoft.MvvmLight.dll",
+        "lib/net35/GalaSoft.MvvmLight.pdb",
+        "lib/net35/GalaSoft.MvvmLight.xml",
+        "lib/net35/System.Windows.Interactivity.dll",
+        "lib/net35/System.Windows.Interactivity.xml",
+        "lib/net40/GalaSoft.MvvmLight.Extras.dll",
+        "lib/net40/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/net40/GalaSoft.MvvmLight.Extras.xml",
+        "lib/net40/GalaSoft.MvvmLight.dll",
+        "lib/net40/GalaSoft.MvvmLight.pdb",
+        "lib/net40/GalaSoft.MvvmLight.xml",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "lib/net45/GalaSoft.MvvmLight.Extras.dll",
+        "lib/net45/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/net45/GalaSoft.MvvmLight.Extras.xml",
+        "lib/net45/GalaSoft.MvvmLight.Platform.dll",
+        "lib/net45/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/net45/GalaSoft.MvvmLight.Platform.xml",
+        "lib/net45/GalaSoft.MvvmLight.dll",
+        "lib/net45/GalaSoft.MvvmLight.pdb",
+        "lib/net45/GalaSoft.MvvmLight.xml",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.XML",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.dll",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pri",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.xml",
+        "lib/windows81/GalaSoft.MvvmLight.Extras.dll",
+        "lib/windows81/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/windows81/GalaSoft.MvvmLight.Extras.xml",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.dll",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.pri",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.xml",
+        "lib/windows81/GalaSoft.MvvmLight.dll",
+        "lib/windows81/GalaSoft.MvvmLight.pdb",
+        "lib/windows81/GalaSoft.MvvmLight.xml",
+        "lib/wp8/GalaSoft.MvvmLight.Extras.dll",
+        "lib/wp8/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/wp8/GalaSoft.MvvmLight.Extras.xml",
+        "lib/wp8/GalaSoft.MvvmLight.Platform.dll",
+        "lib/wp8/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/wp8/GalaSoft.MvvmLight.Platform.xml",
+        "lib/wp8/GalaSoft.MvvmLight.dll",
+        "lib/wp8/GalaSoft.MvvmLight.pdb",
+        "lib/wp8/GalaSoft.MvvmLight.xml",
+        "lib/wp8/System.Windows.Interactivity.dll",
+        "lib/wp81/GalaSoft.MvvmLight.Extras.dll",
+        "lib/wp81/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/wp81/GalaSoft.MvvmLight.Extras.xml",
+        "lib/wp81/GalaSoft.MvvmLight.Platform.dll",
+        "lib/wp81/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/wp81/GalaSoft.MvvmLight.Platform.xml",
+        "lib/wp81/GalaSoft.MvvmLight.dll",
+        "lib/wp81/GalaSoft.MvvmLight.pdb",
+        "lib/wp81/GalaSoft.MvvmLight.xml",
+        "lib/wp81/System.Windows.Interactivity.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.Extras.XML",
+        "lib/wpa81/GalaSoft.MvvmLight.Extras.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.XML",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.pri",
+        "lib/wpa81/GalaSoft.MvvmLight.XML",
+        "lib/wpa81/GalaSoft.MvvmLight.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.pdb",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.XML",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
+        "mvvmlightlibs.5.4.1.1.nupkg.sha512",
+        "mvvmlightlibs.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
@@ -4351,6 +5042,37 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -8270,12 +8992,45 @@
         "runtimes/win10-x86/lib/uap10.0.15138/netstandard.dll",
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
+    },
+    "Win2D.uwp/1.24.0": {
+      "sha512": "IoDMowHveBN6xWxmaBVXzdFJC+kTdIgJYTOzMLNrKgLHAV4qnSVRsgSrOXO2tAbc7ridwA7Z60fA+W5s1q9Ftg==",
+      "type": "package",
+      "path": "win2d.uwp/1.24.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Win2d.githash.txt",
+        "build/Win2D.common.targets",
+        "build/native/Win2D.uwp.targets",
+        "build/net45/Win2D.uwp.targets",
+        "build/netcoreapp3.0/Win2D.uwp.targets",
+        "build/win10/Win2D.uwp.targets",
+        "include/Microsoft.Graphics.Canvas.h",
+        "include/Microsoft.Graphics.Canvas.native.h",
+        "lib/net45/Microsoft.Graphics.Canvas.winmd",
+        "lib/net45/Microsoft.Graphics.Canvas.xml",
+        "lib/netcoreapp3.0/Microsoft.Graphics.Canvas.winmd",
+        "lib/netcoreapp3.0/Microsoft.Graphics.Canvas.xml",
+        "lib/uap10.0/Microsoft.Graphics.Canvas.winmd",
+        "lib/uap10.0/Microsoft.Graphics.Canvas.xml",
+        "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll",
+        "win2d.uwp.1.24.0.nupkg.sha512",
+        "win2d.uwp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17134": [
+      "Humanizer.Core >= 2.7.9",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
-      "Microsoft.UI.Xaml >= 2.3.200213001"
+      "Microsoft.UI.Xaml >= 2.3.200213001",
+      "MvvmLight >= 5.4.1.1",
+      "Newtonsoft.Json >= 12.0.3",
+      "Win2D.uwp >= 1.24.0"
     ]
   },
   "packageFolders": {
@@ -8315,6 +9070,10 @@
     "frameworks": {
       "uap10.0.17134": {
         "dependencies": {
+          "Humanizer.Core": {
+            "target": "Package",
+            "version": "[2.7.9, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.9, )"
@@ -8322,6 +9081,18 @@
           "Microsoft.UI.Xaml": {
             "target": "Package",
             "version": "[2.3.200213001, )"
+          },
+          "MvvmLight": {
+            "target": "Package",
+            "version": "[5.4.1.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "Win2D.uwp": {
+            "target": "Package",
+            "version": "[1.24.0, )"
           }
         },
         "imports": [

@@ -31,10 +31,18 @@
                           Margin="160 0 0 0">
 
                 <muxc:MenuBarItem Title="功能">
-                    <MenuFlyoutItem x:ConnectionId='8' Text="更新搜索词库"
-                                    x:Name="MenuUpdate"
+                    <MenuFlyoutItem x:ConnectionId='8' Text="刷新Emoji页面"
+                                    x:Name="MenuEmoji"
                                                                 />
-                    <MenuFlyoutItem x:ConnectionId='9' Text="退出"
+                    <MenuFlyoutItem x:ConnectionId='9' Text="更新搜索词库"
+                                    x:Name="MenuEmojiUpdate"
+                                                                />
+                    <MenuFlyoutSeparator />
+                    <MenuFlyoutItem x:ConnectionId='10' Text="重置本地词库"
+                                    x:Name="MenuEmojiReset"
+                                                                />
+                    <MenuFlyoutSeparator />
+                    <MenuFlyoutItem x:ConnectionId='11' Text="退出"
                                     x:Name="MenuExit"
                                                                 />
                 </muxc:MenuBarItem>

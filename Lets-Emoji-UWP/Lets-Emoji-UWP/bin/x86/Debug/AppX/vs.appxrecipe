@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-R1BN88F</Machine>
+    <Machine>FUNSURFACEBOOK</Machine>
     <WindowsUser>huanz</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7B2D45D6888E23A9EE2BF7B72C16840379A9DF6C2D361B848EA8721CFA958046</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>71F4CA2C424A6B6DAEC56DFF38F5051AF652AA69AFD5CFD2ADBF626AA563776A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>30d545e4-a53e-46ac-a173-be191a093165_1.0.0.0_x86__4rbekj1sy0v6p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>30d545e4-a53e-46ac-a173-be191a093165_4rbekj1sy0v6p!App</RegisteredUserModeAppID>
     <RegisteredPackageID>30d545e4-a53e-46ac-a173-be191a093165</RegisteredPackageID>
@@ -30,17 +30,49 @@
     <AppXManifest Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-25T09:55:32.671</Modified>
+      <Modified>2020-03-27T10:47:15.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Let%27s Emoji.exe">
       <PackagePath>entrypoint\Let%27s Emoji.exe</PackagePath>
-      <Modified>2020-03-25T09:55:31.584</Modified>
+      <Modified>2020-03-27T10:47:11.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
+      <PackagePath>CommonServiceLocator.dll</PackagePath>
+      <Modified>2018-01-03T04:27:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\humanizer.core\2.7.9\lib\netstandard2.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+      <Modified>2019-09-27T10:05:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2018-02-04T15:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2018-02-04T15:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2018-02-04T15:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T16:56:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T06:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\win2d.uwp\1.24.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2019-10-25T15:27:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\win2d.uwp\1.24.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2019-10-25T15:27:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -318,19 +350,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Let%27s Emoji.xr.xml">
       <PackagePath>Let%27s Emoji.xr.xml</PackagePath>
-      <Modified>2020-03-25T08:38:42.278</Modified>
+      <Modified>2020-03-27T04:02:55.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-25T09:55:31.298</Modified>
+      <Modified>2020-03-27T10:47:11.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-25T09:55:31.298</Modified>
+      <Modified>2020-03-27T10:47:11.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Pages\EmojiPage.xbf">
       <PackagePath>Pages\EmojiPage.xbf</PackagePath>
-      <Modified>2020-03-25T09:55:31.298</Modified>
+      <Modified>2020-03-27T10:47:11.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -346,11 +378,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-25T09:47:40.677</Modified>
+      <Modified>2020-03-27T10:47:12.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Core\Let%27s Emoji.exe">
       <PackagePath>Let%27s Emoji.exe</PackagePath>
-      <Modified>2020-03-25T09:55:32.659</Modified>
+      <Modified>2020-03-27T10:47:15.765</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
