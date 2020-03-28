@@ -68,20 +68,70 @@
                   Grid.RowSpan="2">
             <GridView.ItemContainerStyle>
                 <Style TargetType="GridViewItem">
-                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Margin" Value="3"/>
                 </Style>
             </GridView.ItemContainerStyle>
 
             <GridView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Width="50"
-                          Height="50">
-                        <TextBlock Text="{Binding Text}"
+                    <UserControl>
+                        <Grid Width="55"
+                          Height="55"
+                          x:Name="GridText">
+
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="VisualStateGroup">
+                                    <VisualState x:Name="Phone">
+                                        <VisualState.StateTriggers>
+                                            <AdaptiveTrigger MinWindowWidth="0"/>
+                                        </VisualState.StateTriggers>
+                                        <VisualState.Setters>
+                                            <Setter Target="GridText.Width"
+                                                Value="55"/>
+                                            <Setter Target="GridText.Height"
+                                                Value="55"/>
+                                            <Setter Target="TextBlockGrid.FontSize"
+                                                Value="28"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                    <VisualState x:Name="Tablet">
+                                        <VisualState.StateTriggers>
+                                            <AdaptiveTrigger MinWindowWidth="700" />
+                                        </VisualState.StateTriggers>
+                                        <VisualState.Setters>
+                                            <Setter Target="GridText.Width"
+                                                Value="65"/>
+                                            <Setter Target="GridText.Height"
+                                                Value="65"/>
+                                            <Setter Target="TextBlockGrid.FontSize"
+                                                Value="33"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                    <VisualState x:Name="Desktop">
+                                        <VisualState.StateTriggers>
+                                            <AdaptiveTrigger MinWindowWidth="1000" />
+                                        </VisualState.StateTriggers>
+                                        <VisualState.Setters>
+                                            <Setter Target="GridText.Width"
+                                                Value="80"/>
+                                            <Setter Target="GridText.Height"
+                                                Value="80"/>
+                                            <Setter Target="TextBlockGrid.FontSize"
+                                                Value="40"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+
+                            <TextBlock Text="{Binding Text}"
                                    x:Name="TextBlockGrid"
-                                   FontSize="30"
+                                   FontSize="28"
                                    HorizontalAlignment="Center"
                                    VerticalAlignment="Center"/>
-                    </Grid>
+                        </Grid>
+                    </UserControl>
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
@@ -143,7 +193,7 @@
                             <Setter Property="FontSize" Value="10"/>
                         </Style>
                     </StackPanel.Resources>
-                    
+
                     <TextBlock Style="{StaticResource Title}" Text="Name"/>
                     <TextBlock Style="{StaticResource Introduction}" Text="{Binding Name}"
                                 FontWeight="Bold"/>
@@ -159,40 +209,7 @@
             </ScrollViewer>
 
         </Grid>
-
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="VisualStateGroup">
-                <VisualState x:Name="Phone">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="0"/>
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <Setter Target="GridViewEmoji.FontSize"
-                                Value="25"/>
-                    </VisualState.Setters>
-                </VisualState>
-
-                <VisualState x:Name="Tablet">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="400" />
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <Setter Target="GridViewEmoji.FontSize"
-                                Value="25"/>
-                    </VisualState.Setters>
-                </VisualState>
-
-                <VisualState x:Name="Desktop">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="800" />
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <Setter Target="GridViewEmoji.FontSize"
-                                Value="60"/>
-                    </VisualState.Setters>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-
+        
+        
     </Grid>
 </Page>

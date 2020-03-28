@@ -94,9 +94,6 @@
       <RootProperty Name="Path" />
     </RootType>
     <RootType FullName="Lets_Emoji_UWP.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
-      <RootMethod Name="GetVisualStateGroups" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
@@ -144,6 +141,22 @@
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="SelectedIndex" />
       <RootProperty Name="Width" />
@@ -161,16 +174,6 @@
       <RootProperty Name="Glyph" />
     </RootType>
     <RootType FullName="System.String" />
-    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
-      <RootProperty Name="States" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.VisualState">
-      <RootProperty Name="StateTriggers" />
-      <RootProperty Name="Setters" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
-      <RootProperty Name="MinWindowWidth" />
-    </RootType>
     <RootType FullName="Lets_Emoji_UWP.Pages.EmojiPage" />
   </Roots.RootTypes>
 </Roots>

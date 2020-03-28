@@ -85,9 +85,6 @@ namespace Lets_Emoji_UWP.Helpers
             }
         }
 
-        
-
-
         #region 输出PNG
         private static async Task<StorageFile> PickFileAsync(string fileName, string key, IList<string> values)
         {
@@ -113,7 +110,7 @@ namespace Lets_Emoji_UWP.Helpers
         {
             try
             {
-                string name = "123.png";
+                string name = GlobalTool.SelectedEmoji.Name + ".png";
                 if (await PickFileAsync(name, "PNG Image", new[] { ".png" }) is StorageFile file)
                 {
                     CachedFileManager.DeferUpdates(file);
@@ -130,7 +127,6 @@ namespace Lets_Emoji_UWP.Helpers
                         {
                             ds.Clear(Colors.Transparent);
                             double d = 2048;
-                            double r = 2048 / 2;
 
                             var textColor = Colors.White;
                             var fontSize = (float)d;
@@ -139,11 +135,11 @@ namespace Lets_Emoji_UWP.Helpers
                             {
                                 FontSize = fontSize,
                                 FontFamily = "Segoe UI Emoji",
-                                FontStretch = FontStretch.Undefined,
-                                FontWeight = new FontWeight { Weight = 20 },
+                                FontStretch = FontStretch.Normal,
+                                FontWeight = new FontWeight { Weight = 1 },
                                 FontStyle = FontStyle.Normal,
                                 HorizontalAlignment = CanvasHorizontalAlignment.Center,
-                                Options = CanvasDrawTextOptions.EnableColorFont
+                                Options = CanvasDrawTextOptions.Default
                             }, canvasW, canvasH))
                                 {
                                     layout.Options = CanvasDrawTextOptions.EnableColorFont;
