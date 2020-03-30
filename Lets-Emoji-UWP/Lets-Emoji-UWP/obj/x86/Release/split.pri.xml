@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="54589FunJoo.LetsEmoji" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>LIGHTUNPLATED,UNPLATED</AlternateForm>
+			<Language>EN</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://54589FunJoo.LetsEmoji/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Let's Emoji.xr.xml" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Let's Emoji.xr.xml">
+				<Candidate type="Path">
+					<Value>Let's Emoji.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://54589FunJoo.LetsEmoji/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Fun_Title_200_60.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/Fun_Title_200_60.png">
+					<Candidate type="Path">
+						<Value>Assets\Fun_Title_200_60.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Fun_Title_200_60_White.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/Fun_Title_200_60_White.png">
+					<Candidate type="Path">
+						<Value>Assets\Fun_Title_200_60_White.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.UI.Xaml">
+				<ResourceMapSubtree name="DensityStyles">
+					<NamedResource name="Compact.xbf" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Pages">
+				<NamedResource name="EmojiPage.xbf" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Pages/EmojiPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://54589FunJoo.LetsEmoji/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://54589FunJoo.LetsEmoji/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Humanizer.Properties.Resources">
+			<NamedResource name="DateHumanize_MultipleDaysAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysAgo_Above20" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysAgo_Above20">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysAgo_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysAgo_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysAgo_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysAgo_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysAgo_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysAgo_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} day ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysAgo_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysAgo_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysFromNow_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysFromNow_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysFromNow_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysFromNow_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysFromNow_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysFromNow_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} day from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleDaysFromNow_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleDaysFromNow_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo_Above20" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo_Above20">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hour ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursAgo_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursAgo_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursFromNow_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursFromNow_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursFromNow_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursFromNow_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursFromNow_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursFromNow_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursFromNow_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursFromNow_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hour from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleHoursFromNow_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleHoursFromNow_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo_Above20" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo_Above20">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minute ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesAgo_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesAgo_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesFromNow_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesFromNow_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesFromNow_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesFromNow_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesFromNow_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesFromNow_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesFromNow_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesFromNow_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minute from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMinutesFromNow_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMinutesFromNow_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsAgo_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsAgo_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsAgo_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsAgo_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsAgo_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsAgo_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsAgo_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsAgo_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} month ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsAgo_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsAgo_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsFromNow_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsFromNow_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsFromNow_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsFromNow_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsFromNow_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsFromNow_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsFromNow_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsFromNow_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} month from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleMonthsFromNow_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleMonthsFromNow_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo_Above20" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo_Above20">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} second ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsAgo_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsAgo_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsFromNow_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsFromNow_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsFromNow_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsFromNow_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsFromNow_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsFromNow_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsFromNow_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsFromNow_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} second from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleSecondsFromNow_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleSecondsFromNow_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo_Above20" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo_Above20">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years from ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} year ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsAgo_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsAgo_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsFromNow_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsFromNow_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsFromNow_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsFromNow_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsFromNow_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsFromNow_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsFromNow_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsFromNow_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} year from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_MultipleYearsFromNow_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_MultipleYearsFromNow_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_Never" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_Never">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>never</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_Now" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_Now">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleDayAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleDayAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>yesterday</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleDayFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleDayFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>tomorrow</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleHourAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleHourAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>an hour ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleHourFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleHourFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>an hour from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleMinuteAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleMinuteAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>a minute ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleMinuteFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleMinuteFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>a minute from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleMonthAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleMonthAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one month ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleMonthFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleMonthFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one month from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleSecondAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleSecondAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one second ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleSecondFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleSecondFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one second from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleYearAgo" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleYearAgo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one year ago</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateHumanize_SingleYearFromNow" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/DateHumanize_SingleYearFromNow">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one year from now</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="E" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/E">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>east</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ENE" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/ENE">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>east-northeast</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ENE_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/ENE_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>ENE</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ESE" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/ESE">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>east-southeast</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ESE_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/ESE_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>ESE</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="E_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/E_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>E</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="N" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/N">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>north</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NE" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NE">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>northeast</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NE_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NE_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>NE</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NNE" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NNE">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>north-northeast</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NNE_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NNE_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>NNE</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NNW" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NNW">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>north-northwest</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NNW_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NNW_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>NNW</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NW" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NW">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>northwest</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NW_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/NW_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>NW</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="N_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/N_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>N</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="S" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/S">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>south</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SE" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SE">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>southeast</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SE_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SE_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>SE</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SSE" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SSE">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>south-southeast</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SSE_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SSE_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>SSE</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SSW" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SSW">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>south-southwest</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SSW_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SSW_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>SSW</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SW" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SW">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>southwest</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SW_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/SW_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>SW</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="S_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/S_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>S</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleDays" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleDays">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleDays_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleDays_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleDays_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleDays_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleDays_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleDays_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleDays_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleDays_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} day</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleDays_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleDays_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} days</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleHours" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleHours">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleHours_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleHours_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleHours_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleHours_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleHours_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleHours_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleHours_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleHours_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hour</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleHours_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleHours_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} hours</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMilliseconds" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMilliseconds">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} milliseconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMilliseconds_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMilliseconds_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} milliseconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMilliseconds_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMilliseconds_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} milliseconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMilliseconds_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMilliseconds_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} milliseconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMilliseconds_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMilliseconds_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} millisecond</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMilliseconds_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMilliseconds_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} milliseconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMinutes" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMinutes">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMinutes_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMinutes_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMinutes_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMinutes_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMinutes_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMinutes_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMinutes_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMinutes_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minute</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMinutes_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMinutes_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} minutes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMonths" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMonths">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMonths_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMonths_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMonths_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMonths_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMonths_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMonths_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMonths_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMonths_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleMonths_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleMonths_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} months</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleSeconds" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleSeconds">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleSeconds_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleSeconds_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleSeconds_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleSeconds_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleSeconds_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleSeconds_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleSeconds_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleSeconds_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} second</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleSeconds_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleSeconds_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} seconds</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleWeeks" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleWeeks">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} weeks</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleWeeks_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleWeeks_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} weeks</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleWeeks_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleWeeks_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} weeks</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleWeeks_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleWeeks_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} weeks</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleWeeks_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleWeeks_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} week</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleWeeks_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleWeeks_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} weeks</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleYears" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleYears">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleYears_Dual" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleYears_Dual">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleYears_DualTrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleYears_DualTrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleYears_Plural" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleYears_Plural">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleYears_Singular" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleYears_Singular">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_MultipleYears_TrialQuadral" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_MultipleYears_TrialQuadral">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{0} years</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleDay" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleDay">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 day</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleDay_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleDay_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one day</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleHour" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleHour">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 hour</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleHour_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleHour_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one hour</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleMillisecond" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleMillisecond">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 millisecond</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleMillisecond_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleMillisecond_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one millisecond</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleMinute" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleMinute">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 minute</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleMinute_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleMinute_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one minute</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleMonth" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleMonth">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 month</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleMonth_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleMonth_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one month</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleSecond" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleSecond">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 second</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleSecond_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleSecond_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one second</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleWeek" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleWeek">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 week</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleWeek_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleWeek_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one week</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleYear" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleYear">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>1 year</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_SingleYear_Words" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_SingleYear_Words">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>one year</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TimeSpanHumanize_Zero" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/TimeSpanHumanize_Zero">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>no time</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="W" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/W">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>west</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WNW" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/WNW">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>west-northwest</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WNW_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/WNW_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>WNW</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WSW" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/WSW">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>west-southwest</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WSW_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/WSW_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>WSW</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="W_Short" uri="ms-resource://54589FunJoo.LetsEmoji/Humanizer.Properties.Resources/W_Short">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>W</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

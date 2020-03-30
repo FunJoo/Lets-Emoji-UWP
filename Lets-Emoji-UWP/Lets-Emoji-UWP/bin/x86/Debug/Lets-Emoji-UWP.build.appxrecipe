@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>30d545e4-a53e-46ac-a173-be191a093165</PackageIdentityName>
-    <PackageIdentityPublisher>CN=FunJoo</PackageIdentityPublisher>
+    <PackageIdentityName>d4c7f50b-587c-4e26-8e39-0f16f8d4e18a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=BC1FCB2C-0ACC-4D97-806E-7096F6E7F298</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
