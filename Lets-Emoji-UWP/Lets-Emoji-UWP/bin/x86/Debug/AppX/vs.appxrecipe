@@ -19,24 +19,24 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>466F4EB195FB843D028E064E2FD536C9024335D9DED8AB508787A0B8E9E2A477</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>54589FunJoo.LetsEmoji_1.0.0.0_x86__6sw41wag7gr46</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>5F649E9136A20DDCBA5F777F256FB3137882A0F0CE859370CA4CC15491F0A2FF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>54589FunJoo.LetsEmoji_1.0.9.0_x86__6sw41wag7gr46</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>54589FunJoo.LetsEmoji_6sw41wag7gr46!App</RegisteredUserModeAppID>
     <RegisteredPackageID>54589FunJoo.LetsEmoji</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=BC1FCB2C-0ACC-4D97-806E-7096F6E7F298</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.9.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-30T03:43:46.182</Modified>
+      <Modified>2020-03-30T08:33:38.417</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Let%27s Emoji.exe">
       <PackagePath>entrypoint\Let%27s Emoji.exe</PackagePath>
-      <Modified>2020-03-30T03:42:58.005</Modified>
+      <Modified>2020-03-30T08:33:34.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -350,19 +350,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Let%27s Emoji.xr.xml">
       <PackagePath>Let%27s Emoji.xr.xml</PackagePath>
-      <Modified>2020-03-28T17:36:46.122</Modified>
+      <Modified>2020-03-30T08:33:33.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-30T03:43:44.751</Modified>
+      <Modified>2020-03-30T08:33:33.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-30T03:43:44.751</Modified>
+      <Modified>2020-03-30T08:33:33.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Pages\EmojiPage.xbf">
       <PackagePath>Pages\EmojiPage.xbf</PackagePath>
-      <Modified>2020-03-30T03:43:44.751</Modified>
+      <Modified>2020-03-30T08:33:33.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -378,11 +378,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-30T03:42:58.534</Modified>
+      <Modified>2020-03-30T08:33:35.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Core\Let%27s Emoji.exe">
       <PackagePath>Let%27s Emoji.exe</PackagePath>
-      <Modified>2020-03-30T03:43:46.163</Modified>
+      <Modified>2020-03-30T08:33:38.397</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

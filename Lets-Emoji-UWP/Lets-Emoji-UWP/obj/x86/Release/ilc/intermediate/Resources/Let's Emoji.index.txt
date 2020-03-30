@@ -1,2 +1,0 @@
-"Let\'s Emoji", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  Lets_Emoji_UWP.Assets.config_emoji.json

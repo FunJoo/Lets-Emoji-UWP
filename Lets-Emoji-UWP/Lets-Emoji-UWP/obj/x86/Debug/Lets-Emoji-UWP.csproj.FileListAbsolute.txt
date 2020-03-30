@@ -23,6 +23,7 @@ C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\Lets-Emoji-UWP.csprojAssemblyReference.cache
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\App.g.i.cs
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\App.g.cs
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\MainPage.g.i.cs
@@ -65,4 +66,3 @@ C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637076140640000000.json
 C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885022160000000.json
-C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\obj\x86\Debug\Lets-Emoji-UWP.csprojAssemblyReference.cache
