@@ -1,7 +1,6 @@
 ﻿using Lets_Emoji_UWP.Models;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Text;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,6 +9,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Data.Json;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 using Windows.UI;
@@ -55,8 +55,19 @@ namespace Lets_Emoji_UWP.Helpers
                 StorageFolder folder = ApplicationData.Current.LocalFolder;
                 StorageFile file = await folder.GetFileAsync(EmojiFileName);
                 GlobalTool.EmojiJson = await FileIO.ReadTextAsync(file);
-                return JsonConvert.DeserializeObject<List<MyEmoji>>(GlobalTool.EmojiJson);
-            }catch(Exception e)
+
+                JsonArray array = JsonArray.Parse(GlobalTool.EmojiJson);
+                List<MyEmoji> list = new List<MyEmoji>();
+                foreach (IJsonValue jsonValue in array.GetArray())
+                {
+                    if (jsonValue.ValueType == JsonValueType.Object)
+                    {
+                        list.Add(new MyEmoji(jsonValue.GetObject()));
+                    }
+                }
+                return list;
+            }
+            catch(Exception e)
             {
                 Debug.WriteLine(e.Message);
                 return null;
@@ -106,7 +117,7 @@ namespace Lets_Emoji_UWP.Helpers
             }
         }
 
-        public static async void ExportPngAsync(CanvasTypography typography)
+        public static async void ExportPngAsync()
         {
             try
             {
@@ -144,7 +155,7 @@ namespace Lets_Emoji_UWP.Helpers
                                 {
                                     layout.Options = CanvasDrawTextOptions.EnableColorFont;
 
-                                    layout.SetTypography(0, 1, typography);
+                                    layout.SetTypography(0, 1, new CanvasTypography());
 
                                     var db = layout.DrawBounds;
                                     double scale = Math.Min(1, Math.Min(canvasW / db.Width, canvasH / db.Height));

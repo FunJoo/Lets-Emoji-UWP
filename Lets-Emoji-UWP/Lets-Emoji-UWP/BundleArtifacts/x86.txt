@@ -1,1 +1,0 @@
-MainPackage=C:\Users\huanz\source\repos\Lets-Emoji-UWP\Lets-Emoji-UWP\Lets-Emoji-UWP\bin\x86\Release\Lets-Emoji-UWP_1.0.9.0_x86.appx

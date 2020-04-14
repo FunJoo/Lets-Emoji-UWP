@@ -1,5 +1,4 @@
-﻿using Lets_Emoji_UWP.ExportPNG;
-using Lets_Emoji_UWP.Helpers;
+﻿using Lets_Emoji_UWP.Helpers;
 using Lets_Emoji_UWP.Models;
 using System;
 using System.Collections.Generic;
@@ -111,8 +110,7 @@ namespace Lets_Emoji_UWP.Pages
                     }
                     break;
                 case "ButtonSave":
-                    var vm = new ExportViewModel();
-                    FileHelper.ExportPngAsync(vm.GetEffectiveTypography());
+                    FileHelper.ExportPngAsync();
                     break;
             }
         }

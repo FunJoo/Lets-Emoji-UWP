@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Data.Json;
 
 namespace Lets_Emoji_UWP.Models
 {
@@ -14,5 +15,18 @@ namespace Lets_Emoji_UWP.Models
         public string Group { get; set; }
         public string Subgroup { get; set; }
         public string Unicode { get; set; }
+
+        public MyEmoji(JsonObject jsonObject)
+        {
+            if (null != jsonObject)
+            {
+                Name = jsonObject.GetNamedString("name", "");
+                Text = jsonObject.GetNamedString("text", "");
+                Note = jsonObject.GetNamedString("note", "");
+                Group = jsonObject.GetNamedString("group", "");
+                Subgroup = jsonObject.GetNamedString("subgroup", "");
+                Unicode = jsonObject.GetNamedString("unicode", "");
+            }
+        }
     }
 }
