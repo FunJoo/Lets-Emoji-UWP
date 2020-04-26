@@ -1,6 +1,4 @@
 ﻿using Lets_Emoji_UWP.Models;
-using Microsoft.Graphics.Canvas;
-using Microsoft.Graphics.Canvas.Text;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -95,97 +93,5 @@ namespace Lets_Emoji_UWP.Helpers
                 return null;
             }
         }
-
-        #region 输出PNG
-        private static async Task<StorageFile> PickFileAsync(string fileName, string key, IList<string> values)
-        {
-            var savePicker = new FileSavePicker
-            {
-                SuggestedStartLocation = PickerLocationId.PicturesLibrary
-            };
-
-            savePicker.FileTypeChoices.Add(key, values);
-            savePicker.SuggestedFileName = fileName;
-
-            try
-            {
-                return await savePicker.PickSaveFileAsync();
-            }
-            catch (Exception)
-            {
-                return null;
-            }
-        }
-
-        public static async void ExportPngAsync()
-        {
-            try
-            {
-                string name = GlobalTool.SelectedEmoji.Name + ".png";
-                if (await PickFileAsync(name, "PNG Image", new[] { ".png" }) is StorageFile file)
-                {
-                    CachedFileManager.DeferUpdates(file);
-                    
-                    var device = CanvasDevice.GetSharedDevice();
-                    var localDpi = 96; //Windows.Graphics.Display.DisplayInformation.GetForCurrentView().LogicalDpi;
-                    
-                    var canvasH = (float)2048;
-                    var canvasW = (float)2048;
-                    
-                    using (var renderTarget = new CanvasRenderTarget(device, canvasW, canvasH, localDpi))
-                    {
-                        using (var ds = renderTarget.CreateDrawingSession())
-                        {
-                            ds.Clear(Colors.Transparent);
-                            double d = 2048;
-
-                            var textColor = Colors.White;
-                            var fontSize = (float)d;
-
-                            using (CanvasTextLayout layout = new CanvasTextLayout(device, $"{GlobalTool.SelectedEmoji.Text}", new CanvasTextFormat
-                            {
-                                FontSize = fontSize,
-                                FontFamily = "Segoe UI Emoji",
-                                FontStretch = FontStretch.Normal,
-                                FontWeight = new FontWeight { Weight = 1 },
-                                FontStyle = FontStyle.Normal,
-                                HorizontalAlignment = CanvasHorizontalAlignment.Center,
-                                Options = CanvasDrawTextOptions.Default
-                            }, canvasW, canvasH))
-                                {
-                                    layout.Options = CanvasDrawTextOptions.EnableColorFont;
-
-                                    layout.SetTypography(0, 1, new CanvasTypography());
-
-                                    var db = layout.DrawBounds;
-                                    double scale = Math.Min(1, Math.Min(canvasW / db.Width, canvasH / db.Height));
-                                    var x = -db.Left + ((canvasW - (db.Width * scale)) / 2d);
-                                    var y = -db.Top + ((canvasH - (db.Height * scale)) / 2d);
-
-                                    ds.Transform =
-                                        Matrix3x2.CreateTranslation(new Vector2((float)x, (float)y))
-                                        * Matrix3x2.CreateScale(new Vector2((float)scale));
-
-                                    ds.DrawTextLayout(layout, new Vector2(0), textColor);
-                                }
-                            }
-
-                            using (var fileStream = await file.OpenAsync(FileAccessMode.ReadWrite))
-                            {
-                                fileStream.Size = 0;
-                                await renderTarget.SaveAsync(fileStream, CanvasBitmapFileFormat.Png, 1f);
-                            }
-                        }
-                    
-
-                    await CachedFileManager.CompleteUpdatesAsync(file);
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
-        }
-        #endregion
     }
 }

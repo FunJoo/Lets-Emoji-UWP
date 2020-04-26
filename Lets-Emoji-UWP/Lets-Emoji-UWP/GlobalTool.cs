@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Animation;
 
@@ -22,6 +23,8 @@ namespace Lets_Emoji_UWP
                     Package.Current.Id.Version.Minor,
                     Package.Current.Id.Version.Build,
                     Package.Current.Id.Version.Revision);
+
+        public static int MainViewID = ApplicationView.GetForCurrentView().Id;
 
         /// <summary>
         /// 主Frame导航到页面
