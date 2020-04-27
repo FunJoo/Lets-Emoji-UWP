@@ -79,7 +79,7 @@ namespace Lets_Emoji_UWP.Helpers
         public static async Task<List<MyEmoji>> ReadRemoteEmoji()
         {
             string json = await NetHelper.GetEmojis();
-            if (string.IsNullOrEmpty(json) || !json.StartsWith('[')) return null;
+            if (string.IsNullOrEmpty(json) || !json.StartsWith("[")) return null;
             try
             {
                 StorageFolder folder = ApplicationData.Current.LocalFolder;
