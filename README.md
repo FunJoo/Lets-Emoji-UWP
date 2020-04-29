@@ -7,8 +7,8 @@
 #### 软件架构
 C# + UWP
 
-#### 微软UWP商店
-[Windows应用商店](https://www.microsoft.com/zh-cn/p/lets-emoji/9n23tflg1zzx)
+#### 下载APP
+[跳转至Windows应用商店](https://www.microsoft.com/zh-cn/p/lets-emoji/9n23tflg1zzx)
 
 #### 参与贡献
 
