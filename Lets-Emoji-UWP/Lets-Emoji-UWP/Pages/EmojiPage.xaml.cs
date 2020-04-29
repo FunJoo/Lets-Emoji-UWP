@@ -120,13 +120,14 @@ namespace Lets_Emoji_UWP.Pages
                     }
                     break;
                 case "ButtonSave":
-                    SaveWindow();
+                    //SaveWindow(); //使用Xaml保存PNG的方法，现弃用，但代码保留以备不时之需。
+                    FileHelper.ExportPngAsync(); //使用Win2D保存PNG，方法抄自Edi Wang。
                     break;
             }
         }
 
         /// <summary>
-        /// 绘图使能够保存图片
+        /// XAML绘图使能够保存图片
         /// </summary>
         private async void SaveWindow()
         {
